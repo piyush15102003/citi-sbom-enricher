@@ -1,0 +1,25 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "jackson-databind",
+      "version": "2.9.10",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10"
+    },
+    {
+      "type": "library",
+      "name": "spring-core",
+      "version": "5.2.0.RELEASE",
+      "purl": "pkg:maven/org.springframework/spring-core@5.2.0.RELEASE"
+    },
+    {
+      "type": "library",
+      "name": "guava",
+      "version": "33.0.0-jre",
+      "purl": "pkg:maven/com.google.guava/guava@33.0.0-jre"
+    }
+  ]
+}
