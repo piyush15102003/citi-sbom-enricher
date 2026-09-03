@@ -1,8 +1,7 @@
 # SBOM Vulnerability Enricher
 
 Small Spring Boot prototype that enriches a CycloneDX SBOM with live vulnerability data.
-Grounded in Citi's own documented public engineering footprint (see
-`reports/research-Citi-2026-09-02.md`): Citi forks and runs `cyclonedx-maven-plugin`/
+Grounded in Citi's forks and runs `cyclonedx-maven-plugin`/
 `cyclonedx-gradle-plugin` (SBOM generation) and `dependency-track` (SCA/component-risk) internally
 for build-compliance and dependency-risk auditing. No PR-able gap existed in an
 actively-maintained Citi Java repo, so this is a standalone demonstration in that same domain
